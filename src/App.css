@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.map-styles {
+  max-height: 45vh;
+  width: 100%;
+}

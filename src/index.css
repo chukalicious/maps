@@ -1,13 +1,18 @@
 :root {
   --my-color: #fff;
 }
-[data-theme="fantasy"] {
+[data-theme="light"] {
   --my-color: #6e0b75;
 }
-[data-theme="synthwave"] {
+[data-theme="dark"] {
   --my-color: #e779c1;
 }
 
 body {
   background-color: var(--my-color);
+}
+
+.map-styles {
+  max-height: 45vh;
+  width: 100%;
 }
